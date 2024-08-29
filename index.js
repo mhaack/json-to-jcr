@@ -1,9 +1,13 @@
 const fs = require('fs');
 
 async function main() {
-  const jsonUrl =
-    'https://main--builder-prospect--sapudex.aem.page/aemedge/tagging-contenthub.json';
-
+  const arguments = process.argv.slice(2);
+  if (arguments.length === 0) {
+    console.log('No arguments provided - URL to JSON is required');
+    return;
+  }
+  
+  const jsonUrl = arguments[0];
   const fetchData = async (url) => {
     const response = await fetch(url);
     if (!response.ok) {
