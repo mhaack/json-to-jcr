@@ -1,0 +1,3721 @@
+{
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "sling:resourceType": "core/franklin/components/spreadsheet/v1/spreadsheet",
+    "jcr:title": "Metadata",
+    "cq:template": "/libs/core/franklin/templates/metadata",
+    "jcr:mixinTypes": [
+      "mix:versionable"
+    ],
+    "jcr:primaryType": "cq:PageContent",
+    "columns": [
+      "key",
+      "label",
+      "topic-path",
+      "news-path"
+    ],
+    "row0": {
+      "key": "topic/business-transformation",
+      "label": "Business Transformation",
+      "topic-path": "/topics/business-transformation",
+      "news-path": "/news/business-transformation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row1": {
+      "key": "topic/ai",
+      "label": "AI",
+      "topic-path": "/topics/ai",
+      "news-path": "/news/ai",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row2": {
+      "key": "core-topic/responsible-ai",
+      "label": "Responsible AI",
+      "topic-path": "/topics/ai/responsible-ai",
+      "news-path": "/news/responsible-ai",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row3": {
+      "key": "core-topic/generative-ai",
+      "label": "Generative AI",
+      "topic-path": "/topics/ai/generative-ai",
+      "news-path": "/news/generative-ai",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row4": {
+      "key": "topic/erp",
+      "label": "ERP",
+      "topic-path": "/topics/erp",
+      "news-path": "/news/erp",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row5": {
+      "key": "topic/sustainability",
+      "label": "Sustainability",
+      "topic-path": "/topics/sustainability",
+      "news-path": "/news/sustainability",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row6": {
+      "key": "topic/hcm",
+      "label": "Human Capital Management",
+      "topic-path": "/topics/hcm",
+      "news-path": "/news/hcm",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row7": {
+      "key": "topic/procurement",
+      "label": "Procurement",
+      "topic-path": "/topics/procurement",
+      "news-path": "/news/procurement",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row8": {
+      "key": "topic/data-analytics",
+      "label": "Data and Analytics",
+      "topic-path": "/topics/data-analytics",
+      "news-path": "/news/data-analytics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row9": {
+      "key": "topic/scm",
+      "label": "Supply Chain Management",
+      "topic-path": "/topics/scm",
+      "news-path": "/news/scm",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row10": {
+      "key": "topic/crm-customer-experience",
+      "label": "CRM and Customer Experience",
+      "topic-path": "/topics/crm-customer-experience",
+      "news-path": "/news/crm-customer-experience",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row11": {
+      "key": "topic/design-stories",
+      "label": "SAP Design",
+      "topic-path": "/design/stories-resources/",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row12": {
+      "key": "core-topic/environmental-compliance",
+      "label": "Environmental Compliance",
+      "topic-path": "/topics/sustainability/environmental-compliance",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row13": {
+      "key": "core-topic/sustainable-supply-chain",
+      "label": "Sustainable Supply Chain",
+      "topic-path": "/topics/sustainability/sustainable-supply-chain",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row14": {
+      "key": "core-topic/sustainable-business-operations",
+      "label": "Sustainable Business Operations",
+      "topic-path": "/topics/sustainability/sustainable-business-operations",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row15": {
+      "key": "news-topic/business-network",
+      "label": "Business Network",
+      "topic-path": "0",
+      "news-path": "/news/business-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row16": {
+      "key": "news-topic/business-technology-platform",
+      "label": "Business Technology Platform",
+      "topic-path": "0",
+      "news-path": "/news/business-technology-platform",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row17": {
+      "key": "news-topic/cloud",
+      "label": "Cloud",
+      "topic-path": "0",
+      "news-path": "/news/cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row18": {
+      "key": "news-topic/financial-management",
+      "label": "Financial Management",
+      "topic-path": "0",
+      "news-path": "/news/financial-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row19": {
+      "key": "news-topic/spend-management",
+      "label": "Spend Management",
+      "topic-path": "0",
+      "news-path": "/news/spend-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row20": {
+      "key": "news-topic/corporate",
+      "label": "Corporate",
+      "topic-path": "0",
+      "news-path": "/news/corporate",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row21": {
+      "key": "news-topic/customers",
+      "label": "Customers",
+      "topic-path": "0",
+      "news-path": "/news/customers",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row22": {
+      "key": "news-topic/ecosystem",
+      "label": "Ecosystem",
+      "topic-path": "0",
+      "news-path": "/news/ecosystem",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row23": {
+      "key": "news-topic/investor-relations",
+      "label": "Investor Relations",
+      "topic-path": "0",
+      "news-path": "/news/investor-relations",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row24": {
+      "key": "news-topic/services-support",
+      "label": "Services and Support",
+      "topic-path": "0",
+      "news-path": "/news/services-support",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row25": {
+      "key": "news-topic/sme",
+      "label": "SME",
+      "topic-path": "0",
+      "news-path": "/news/sme",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row26": {
+      "key": "news-topic/solutions",
+      "label": "Solutions",
+      "topic-path": "0",
+      "news-path": "/news/solutions",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row27": {
+      "key": "news-topic/technology",
+      "label": "Technology",
+      "topic-path": "0",
+      "news-path": "/news/technology",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row28": {
+      "key": "news-topic/training",
+      "label": "Training",
+      "topic-path": "0",
+      "news-path": "/news/training",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row29": {
+      "key": "industry/agribusiness",
+      "label": "Agribusiness",
+      "topic-path": "/topics/agribusiness",
+      "news-path": "/news/agribusiness",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row30": {
+      "key": "industry/consumer-goods-cpg",
+      "label": "Consumer Products",
+      "topic-path": "/topics/consumer-goods-cpg",
+      "news-path": "/news/consumer-goods-cpg",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row31": {
+      "key": "industry/life-sciences",
+      "label": "Life Sciences",
+      "topic-path": "/topics/life-sciences",
+      "news-path": "/news/life-sciences",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row32": {
+      "key": "industry/retail",
+      "label": "Retail",
+      "topic-path": "/topics/retail",
+      "news-path": "/news/retail",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row33": {
+      "key": "industry/wholesale-distribution",
+      "label": "Wholesale Distribution",
+      "topic-path": "/topics/wholesale-distribution",
+      "news-path": "/news/wholesale-distribution",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row34": {
+      "key": "industry/aerospace-defense",
+      "label": "Aerospace and Defense",
+      "topic-path": "/topics/aerospace-defense",
+      "news-path": "/news/aerospace-defense",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row35": {
+      "key": "industry/automotive",
+      "label": "Automotive",
+      "topic-path": "/topics/automotive",
+      "news-path": "/news/automotive",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row36": {
+      "key": "industry/high-tech",
+      "label": "High Tech",
+      "topic-path": "/topics/high-tech",
+      "news-path": "/news/high-tech",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row37": {
+      "key": "industry/industrial-manufacturing",
+      "label": "Industrial Manufacturing",
+      "topic-path": "/topics/industrial-manufacturing",
+      "news-path": "/news/industrial-manufacturing",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row38": {
+      "key": "industry/chemicals",
+      "label": "Chemicals",
+      "topic-path": "/topics/chemicals",
+      "news-path": "/news/chemicals",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row39": {
+      "key": "industry/mill-products",
+      "label": "Mill Products",
+      "topic-path": "/topics/mill-products",
+      "news-path": "/news/mill-products",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row40": {
+      "key": "industry/mining",
+      "label": "Mining",
+      "topic-path": "/topics/mining",
+      "news-path": "/news/mining",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row41": {
+      "key": "industry/oil-gas-energy",
+      "label": "Oil, Gas, and Energy",
+      "topic-path": "/topics/oil-gas-energy",
+      "news-path": "/news/oil-gas-energy",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row42": {
+      "key": "industry/utilities",
+      "label": "Utilities",
+      "topic-path": "/topics/utilities",
+      "news-path": "/news/utilities",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row43": {
+      "key": "industry/banking",
+      "label": "Banking",
+      "topic-path": "/topics/banking",
+      "news-path": "/news/banking",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row44": {
+      "key": "industry/insurance",
+      "label": "Insurance",
+      "topic-path": "/topics/insurance",
+      "news-path": "/news/insurance",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row45": {
+      "key": "industry/defense-security",
+      "label": "Defense and Security",
+      "topic-path": "/topics/defense-security",
+      "news-path": "/news/defense-security",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row46": {
+      "key": "industry/healthcare",
+      "label": "Healthcare",
+      "topic-path": "/topics/healthcare",
+      "news-path": "/news/healthcare",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row47": {
+      "key": "industry/higher-education-research",
+      "label": "Higher Education and Research",
+      "topic-path": "/topics/higher-education-research",
+      "news-path": "/news/higher-education-research",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row48": {
+      "key": "industry/public-sector",
+      "label": "Public Sector",
+      "topic-path": "/topics/public-sector",
+      "news-path": "/news/public-sector",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row49": {
+      "key": "industry/engineering-construction-operations",
+      "label": "Engineering, Construction, and Operations",
+      "topic-path": "/topics/engineering-construction-operations",
+      "news-path": "/news/engineering-construction-operations",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row50": {
+      "key": "industry/media",
+      "label": "Media",
+      "topic-path": "/topics/media",
+      "news-path": "/news/media",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row51": {
+      "key": "industry/professional-services",
+      "label": "Professional Services",
+      "topic-path": "/topics/professional-services",
+      "news-path": "/news/professional-services",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row52": {
+      "key": "industry/sports-entertainment",
+      "label": "Sports and Entertainment",
+      "topic-path": "/topics/sports-entertainment",
+      "news-path": "/news/sports-entertainment",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row53": {
+      "key": "industry/telecommunications",
+      "label": "Telecommunications",
+      "topic-path": "/topics/telecommunications",
+      "news-path": "/news/telecommunications",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row54": {
+      "key": "industry/travel-transportation",
+      "label": "Travel and Transportation",
+      "topic-path": "/topics/travel-transportation",
+      "news-path": "/news/travel-transportation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row55": {
+      "key": "content-type/what-is",
+      "label": "Explainer",
+      "topic-path": "/topics/what-is",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row56": {
+      "key": "content-type/use-case",
+      "label": "Explainer",
+      "topic-path": "/topics/use-case",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row57": {
+      "key": "content-type/business-case",
+      "label": "Business Case",
+      "topic-path": "/topics/business-case",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row58": {
+      "key": "content-type/best-practice-how-to-guide",
+      "label": "Best Practice Guide",
+      "topic-path": "/topics/best-practice-how-to-guide",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row59": {
+      "key": "content-type/original-research",
+      "label": "Research",
+      "topic-path": "/topics/original-research",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row60": {
+      "key": "content-type/trends-predictions",
+      "label": "Editorial",
+      "topic-path": "/topics/trends-predictions",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row61": {
+      "key": "content-type/expert-opinions",
+      "label": "Editorial",
+      "topic-path": "/topics/expert-opinions",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row62": {
+      "key": "content-type/self-assessment",
+      "label": "Benchmarking",
+      "topic-path": "/topics/self-assessment",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row63": {
+      "key": "content-type/3rd-party-research",
+      "label": "Research",
+      "topic-path": "/topics/3rd-party-research",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row64": {
+      "key": "content-type/business-strategy-guide",
+      "label": "Best Practice Guide",
+      "topic-path": "/topics/business-strategy-guide",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row65": {
+      "key": "content-type/technology-strategy-guide",
+      "label": "Best Practice Guide",
+      "topic-path": "/topics/technology-strategy-guide",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row66": {
+      "key": "content-type/problem-solution-guide",
+      "label": "Best Practice Guide",
+      "topic-path": "/topics/problem-solution-guide",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row67": {
+      "key": "content-type/investment-value-scoping",
+      "label": "Business Case",
+      "topic-path": "/topics/investment-value-scoping",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row68": {
+      "key": "content-type/business-case-leaders",
+      "label": "Business Case",
+      "topic-path": "/topics/business-case-leaders",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row69": {
+      "key": "content-type/project-planning-help",
+      "label": "Project Planning Help",
+      "topic-path": "/topics/project-planning-help",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row70": {
+      "key": "content-type/business-showcase",
+      "label": "Business Showcase",
+      "topic-path": "/topics/business-showcase",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row71": {
+      "key": "content-type/newsbyte",
+      "label": "Newsbyte",
+      "topic-path": "0",
+      "news-path": "/news/press-room",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row72": {
+      "key": "content-type/press-release",
+      "label": "Press Release",
+      "topic-path": "0",
+      "news-path": "/news/press-room",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row73": {
+      "key": "content-type/executive-blog",
+      "label": "Executive Blog",
+      "topic-path": "/topics/executive-blog",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row74": {
+      "key": "content-type/statement",
+      "label": "Statement",
+      "topic-path": "0",
+      "news-path": "/news/press-room",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row75": {
+      "key": "content-type/support-update",
+      "label": "Support Update",
+      "topic-path": "0",
+      "news-path": "/news/support-update",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row76": {
+      "key": "content-type/feature",
+      "label": "Feature",
+      "topic-path": "0",
+      "news-path": "/news/features",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row77": {
+      "key": "content-type/news-guide",
+      "label": "News Guide",
+      "topic-path": "0",
+      "news-path": "/news/news-guide",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row78": {
+      "key": "content-type/design-story",
+      "label": "Design Story",
+      "topic-path": "/design/stories-resources/",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row79": {
+      "key": "content-type/video",
+      "label": "Video",
+      "topic-path": "/topics/video",
+      "news-path": "/news/video",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row80": {
+      "key": "sap-event/sap-sapphire",
+      "label": "SAP Sapphire",
+      "topic-path": "/topics/sap-sapphire",
+      "news-path": "/news/sap-sapphire",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row81": {
+      "key": "sap-event/sap-teched",
+      "label": "SAP TechEd",
+      "topic-path": "/topics/sap-teched",
+      "news-path": "/news/sap-teched",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row82": {
+      "key": "sap-event/sap-ariba-live",
+      "label": "SAP Ariba Live",
+      "topic-path": "/topics/sap-ariba-live",
+      "news-path": "/news/sap-ariba-live",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row83": {
+      "key": "sap-event/sap-global-partner-summit",
+      "label": "SAP Global Partner Summit (renamed?)",
+      "topic-path": "/topics/sap-global-partner-summit",
+      "news-path": "/news/sap-global-partner-summit",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row84": {
+      "key": "sap-event/sap-data-unleashed",
+      "label": "SAP Data Unleashed",
+      "topic-path": "/topics/sap-data-unleashed",
+      "news-path": "/news/sap-data-unleashed",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row85": {
+      "key": "sap-event/sap-concur-fusion",
+      "label": "SAP Concur Fusion",
+      "topic-path": "/topics/sap-concur-fusion",
+      "news-path": "/news/sap-concur-fusion",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row86": {
+      "key": "sap-event/sap-spend-connect-live",
+      "label": "SAP Spend Connect Live",
+      "topic-path": "/topics/sap-spend-connect-live",
+      "news-path": "/news/sap-spend-connect-live",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row87": {
+      "key": "sap-event/successconnect",
+      "label": "SuccessConnect",
+      "topic-path": "/topics/successconnect",
+      "news-path": "/news/successconnect",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row88": {
+      "key": "sap-event/sap-customer-experience-live",
+      "label": "SAP Customer Experience LIVE",
+      "topic-path": "/topics/sap-customer-experience-live",
+      "news-path": "/news/sap-customer-experience-live",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row89": {
+      "key": "sap-event/sap-partner-connect",
+      "label": "SAP Partner Connect",
+      "topic-path": "/topics/sap-partner-connect",
+      "news-path": "/news/sap-partner-connect",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row90": {
+      "key": "non-sap-event/africa-code week",
+      "label": "Africa Code Week",
+      "topic-path": "/topics/africa-code week",
+      "news-path": "/news/africa-code week",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row91": {
+      "key": "non-sap-event/cop26",
+      "label": "COP26",
+      "topic-path": "/topics/cop26",
+      "news-path": "/news/cop26",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row92": {
+      "key": "non-sap-event/cop27",
+      "label": "COP27",
+      "topic-path": "/topics/cop27",
+      "news-path": "/news/cop27",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row93": {
+      "key": "non-sap-event/cop28",
+      "label": "COP28",
+      "topic-path": "/topics/cop28",
+      "news-path": "/news/cop28",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row94": {
+      "key": "non-sap-event/earth-day",
+      "label": "Earth Day",
+      "topic-path": "/topics/earth-day",
+      "news-path": "/news/earth-day",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row95": {
+      "key": "non-sap-event/earth-overshoot-day",
+      "label": "Earth Overshoot Day",
+      "topic-path": "/topics/earth-overshoot-day",
+      "news-path": "/news/earth-overshoot-day",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row96": {
+      "key": "non-sap-event/human-rights-day",
+      "label": "Human Rights Day",
+      "topic-path": "/topics/human-rights-day",
+      "news-path": "/news/human-rights-day",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row97": {
+      "key": "non-sap-event/international-womens-day",
+      "label": "International Women's Day",
+      "topic-path": "/topics/international-womens-day",
+      "news-path": "/news/international-womens-day",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row98": {
+      "key": "non-sap-event/wef-davos",
+      "label": "World Economic Forum Annual Meeting at Davos",
+      "topic-path": "/topics/wef-davos",
+      "news-path": "/news/wef-davos",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row99": {
+      "key": "non-sap-event/world-refugee-day",
+      "label": "World Refugee Day",
+      "topic-path": "/topics/world-refugee-day",
+      "news-path": "/news/world-refugee-day",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row100": {
+      "key": "sap-award/hasso-plattner-founders-awards",
+      "label": "Hasso Plattner Founders’ Awards",
+      "topic-path": "/topics/hasso-plattner-founders-awards",
+      "news-path": "/news/hasso-plattner-founders-awards",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row101": {
+      "key": "sap-award/sap-innovation-awards",
+      "label": "SAP Innovation Awards",
+      "topic-path": "/topics/sap-innovation-awards",
+      "news-path": "/news/sap-innovation-awards",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row102": {
+      "key": "sap-award/sap-global-lob-partner-excellence-awards",
+      "label": "SAP Global LoB Partner Excellence Awards",
+      "topic-path": "/topics/sap-global-lob-partner-excellence-awards",
+      "news-path": "/news/sap-global-lob-partner-excellence-awards",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row103": {
+      "key": "sap-award/sap-pinnacle-awards",
+      "label": "SAP Pinnacle Awards",
+      "topic-path": "/topics/sap-pinnacle-awards",
+      "news-path": "/news/sap-pinnacle-awards",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row104": {
+      "key": "sap-award/sap-quality-awards",
+      "label": "SAP Quality Awards",
+      "topic-path": "/topics/sap-quality-awards",
+      "news-path": "/news/sap-quality-awards",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row105": {
+      "key": "sap-award/sap-regional-partner-excellence-awards",
+      "label": "SAP Regional Partner Excellence Awards",
+      "topic-path": "/topics/sap-regional-partner-excellence-awards",
+      "news-path": "/news/sap-regional-partner-excellence-awards",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row106": {
+      "key": "company-size/large-enterprise",
+      "label": "Large Enterprise",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row107": {
+      "key": "company-size/midsize-business",
+      "label": "Midsize Companies",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row108": {
+      "key": "company-size/small-business",
+      "label": "Small Businesses",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row109": {
+      "key": "clm-stage/awareness",
+      "label": "Awareness",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row110": {
+      "key": "clm-stage/acquisition",
+      "label": "Acquisition",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row111": {
+      "key": "clm-stage/consideration",
+      "label": "Consideration",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row112": {
+      "key": "clm-stage/select",
+      "label": "Select",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row113": {
+      "key": "clm-stage/adopt",
+      "label": "Adopt",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row114": {
+      "key": "clm-stage/usage",
+      "label": "Usage",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row115": {
+      "key": "clm-stage/retain",
+      "label": "Retain",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row116": {
+      "key": "clm-stage/extend",
+      "label": "Extend",
+      "topic-path": "0",
+      "news-path": "0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row117": {
+      "key": "product/sap-leanix",
+      "label": "SAP LeanIX",
+      "topic-path": "/topics/sap-leanix",
+      "news-path": "/news/sap-leanix",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row118": {
+      "key": "product/sap-analytics-cloud",
+      "label": "SAP Analytics Cloud",
+      "topic-path": "/topics/sap-analytics-cloud",
+      "news-path": "/news/sap-analytics-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row119": {
+      "key": "product/sap-ariba-buying",
+      "label": "SAP Ariba Buying",
+      "topic-path": "/topics/sap-ariba-buying",
+      "news-path": "/news/sap-ariba-buying",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row120": {
+      "key": "product/sap-ariba-buying-and-invoicing",
+      "label": "SAP Ariba Buying and Invoicing",
+      "topic-path": "/topics/sap-ariba-buying-and-invoicing",
+      "news-path": "/news/sap-ariba-buying-and-invoicing",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row121": {
+      "key": "product/sap-ariba-category-management",
+      "label": "SAP Ariba Category Management",
+      "topic-path": "/topics/sap-ariba-category-management",
+      "news-path": "/news/sap-ariba-category-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row122": {
+      "key": "product/sap-ariba-contracts",
+      "label": "SAP Ariba Contracts",
+      "topic-path": "/topics/sap-ariba-contracts",
+      "news-path": "/news/sap-ariba-contracts",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row123": {
+      "key": "product/sap-ariba-sourcing",
+      "label": "SAP Ariba Sourcing",
+      "topic-path": "/topics/sap-ariba-sourcing",
+      "news-path": "/news/sap-ariba-sourcing",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row124": {
+      "key": "product/sap-billing-and-revenue-innovation-management",
+      "label": "SAP Billing and Revenue Innovation Management",
+      "topic-path": "/topics/sap-billing-and-revenue-innovation-management",
+      "news-path": "/news/sap-billing-and-revenue-innovation-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row125": {
+      "key": "product/sap-build",
+      "label": "SAP Build",
+      "topic-path": "/topics/sap-build",
+      "news-path": "/news/sap-build",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row126": {
+      "key": "product/sap-build-code",
+      "label": "SAP Build Code",
+      "topic-path": "/topics/sap-build-code",
+      "news-path": "/news/sap-build-code",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row127": {
+      "key": "product/sap-build-process-automation",
+      "label": "SAP Build Process Automation",
+      "topic-path": "/topics/sap-build-process-automation",
+      "news-path": "/news/sap-build-process-automation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row128": {
+      "key": "product/sap-build-work-zone",
+      "label": "SAP Build Work Zone",
+      "topic-path": "/topics/sap-build-work-zone",
+      "news-path": "/news/sap-build-work-zone",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row129": {
+      "key": "product/sap-business-ai",
+      "label": "SAP Business AI",
+      "topic-path": "/topics/sap-business-ai",
+      "news-path": "/news/sap-business-ai",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row130": {
+      "key": "product/sap-business-bydesign",
+      "label": "SAP Business ByDesign",
+      "topic-path": "/topics/sap-business-bydesign",
+      "news-path": "/news/sap-business-bydesign",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row131": {
+      "key": "product/sap-business-network-for-logistics",
+      "label": "SAP Business Network for Logistics",
+      "topic-path": "/topics/sap-business-network-for-logistics",
+      "news-path": "/news/sap-business-network-for-logistics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row132": {
+      "key": "product/sap-business-one",
+      "label": "SAP Business One",
+      "topic-path": "/topics/sap-business-one",
+      "news-path": "/news/sap-business-one",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row133": {
+      "key": "product/sap-business-transformation-center",
+      "label": "SAP Business Transformation Center",
+      "topic-path": "/topics/sap-business-transformation-center",
+      "news-path": "/news/sap-business-transformation-center",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row134": {
+      "key": "product/sap-business-technology-platform",
+      "label": "SAP Business Technology Platform",
+      "topic-path": "/topics/sap-business-technology-platform",
+      "news-path": "/news/sap-business-technology-platform",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row135": {
+      "key": "product/sap-bw4hana",
+      "label": "SAP BW/4HANA",
+      "topic-path": "/topics/sap-bw4hana",
+      "news-path": "/news/sap-bw4hana",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row136": {
+      "key": "product/sap-cloud-alm",
+      "label": "SAP Cloud ALM",
+      "topic-path": "/topics/sap-cloud-alm",
+      "news-path": "/news/sap-cloud-alm",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row137": {
+      "key": "product/sap-cloud-for-sustainable-enterprises",
+      "label": "SAP Cloud for Sustainable Enterprises",
+      "topic-path": "/topics/sap-cloud-for-sustainable-enterprises",
+      "news-path": "/news/sap-cloud-for-sustainable-enterprises",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row138": {
+      "key": "product/sap-commerce-cloud",
+      "label": "SAP Commerce Cloud",
+      "topic-path": "/topics/sap-commerce-cloud",
+      "news-path": "/news/sap-commerce-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row139": {
+      "key": "product/sap-cpq",
+      "label": "SAP CPQ",
+      "topic-path": "/topics/sap-cpq",
+      "news-path": "/news/sap-cpq",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row140": {
+      "key": "product/sap-customer-data-cloud",
+      "label": "SAP Customer Data Cloud",
+      "topic-path": "/topics/sap-customer-data-cloud",
+      "news-path": "/news/sap-customer-data-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row141": {
+      "key": "product/sap-customer-data-platform",
+      "label": "SAP Customer Data Platform",
+      "topic-path": "/topics/sap-customer-data-platform",
+      "news-path": "/news/sap-customer-data-platform",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row142": {
+      "key": "product/sap-data-intelligence",
+      "label": "SAP Data Intelligence",
+      "topic-path": "/topics/sap-data-intelligence",
+      "news-path": "/news/sap-data-intelligence",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row143": {
+      "key": "product/sap-data-intelligence-cloud",
+      "label": "SAP Data Intelligence Cloud",
+      "topic-path": "/topics/sap-data-intelligence-cloud",
+      "news-path": "/news/sap-data-intelligence-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row144": {
+      "key": "product/sap-datasphere",
+      "label": "SAP Datasphere",
+      "topic-path": "/topics/sap-datasphere",
+      "news-path": "/news/sap-datasphere",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row145": {
+      "key": "product/sap-digital-manufacturing",
+      "label": "SAP Digital Manufacturing",
+      "topic-path": "/topics/sap-digital-manufacturing",
+      "news-path": "/news/sap-digital-manufacturing",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row146": {
+      "key": "product/sap-e-mobility",
+      "label": "SAP E-Mobility",
+      "topic-path": "/topics/sap-e-mobility",
+      "news-path": "/news/sap-e-mobility",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row147": {
+      "key": "product/sap-emarsys-customer-engagement",
+      "label": "SAP Emarsys Customer Engagement",
+      "topic-path": "/topics/sap-emarsys-customer-engagement",
+      "news-path": "/news/sap-emarsys-customer-engagement",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row148": {
+      "key": "product/sap-enable-now",
+      "label": "SAP Enable Now",
+      "topic-path": "/topics/sap-enable-now",
+      "news-path": "/news/sap-enable-now",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row149": {
+      "key": "product/sap-enterprise-product-development",
+      "label": "SAP Enterprise Product Development",
+      "topic-path": "/topics/sap-enterprise-product-development",
+      "news-path": "/news/sap-enterprise-product-development",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row150": {
+      "key": "product/sap-ehs-management",
+      "label": "SAP Environment, Health, and Safety Management",
+      "topic-path": "/topics/sap-ehs-management",
+      "news-path": "/news/sap-ehs-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row151": {
+      "key": "product/sap-erp",
+      "label": "SAP ERP",
+      "topic-path": "/topics/sap-erp",
+      "news-path": "/news/sap-erp",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row152": {
+      "key": "product/sap-extended-warehouse-management",
+      "label": "SAP Extended Warehouse Management",
+      "topic-path": "/topics/sap-extended-warehouse-management",
+      "news-path": "/news/sap-extended-warehouse-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row153": {
+      "key": "product/sap-green-token",
+      "label": "SAP Green Token",
+      "topic-path": "/topics/sap-green-token",
+      "news-path": "/news/sap-green-token",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row154": {
+      "key": "product/sap-hana-cloud",
+      "label": "SAP HANA Cloud",
+      "topic-path": "/topics/sap-hana-cloud",
+      "news-path": "/news/sap-hana-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row155": {
+      "key": "product/sap-information-collaboration-hub-for-life-sciences",
+      "label": "SAP Information Collaboration Hub for Life Sciences",
+      "topic-path": "/topics/sap-information-collaboration-hub-for-life-sciences",
+      "news-path": "/news/sap-information-collaboration-hub-for-life-sciences",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row156": {
+      "key": "product/sap-integrated-business-planning-for-supply-chain",
+      "label": "SAP Integrated Business Planning for Supply Chain",
+      "topic-path": "/topics/sap-integrated-business-planning-for-supply-chain",
+      "news-path": "/news/sap-integrated-business-planning-for-supply-chain",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row157": {
+      "key": "product/sap-integration-suite",
+      "label": "SAP Integration Suite",
+      "topic-path": "/topics/sap-integration-suite",
+      "news-path": "/news/sap-integration-suite",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row158": {
+      "key": "product/sap-intelligent-asset-management",
+      "label": "SAP Intelligent Asset Management",
+      "topic-path": "/topics/sap-intelligent-asset-management",
+      "news-path": "/news/sap-intelligent-asset-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row159": {
+      "key": "product/sap-intelligent-returns-management",
+      "label": "SAP Intelligent Returns Management",
+      "topic-path": "/topics/sap-intelligent-returns-management",
+      "news-path": "/news/sap-intelligent-returns-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row160": {
+      "key": "product/sap-intelligent-rpa",
+      "label": "SAP Intelligent Robotic Process Automation",
+      "topic-path": "/topics/sap-intelligent-rpa",
+      "news-path": "/news/sap-intelligent-rpa",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row161": {
+      "key": "product/sap-learning-hub",
+      "label": "SAP Learning Hub",
+      "topic-path": "/topics/sap-learning-hub",
+      "news-path": "/news/sap-learning-hub",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row162": {
+      "key": "product/sap-litmos",
+      "label": "SAP Litmos",
+      "topic-path": "/topics/sap-litmos",
+      "news-path": "/news/sap-litmos",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row163": {
+      "key": "product/sap-marketing-cloud",
+      "label": "SAP Marketing Cloud",
+      "topic-path": "/topics/sap-marketing-cloud",
+      "news-path": "/news/sap-marketing-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row164": {
+      "key": "product/sap-master-data-governance",
+      "label": "SAP Master Data Governance",
+      "topic-path": "/topics/sap-master-data-governance",
+      "news-path": "/news/sap-master-data-governance",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row165": {
+      "key": "product/sap-mobile-start",
+      "label": "SAP Mobile Start",
+      "topic-path": "/topics/sap-mobile-start",
+      "news-path": "/news/sap-mobile-start",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row166": {
+      "key": "product/sap-order-and-delivery-scheduling",
+      "label": "SAP Order and Delivery Scheduling",
+      "topic-path": "/topics/sap-order-and-delivery-scheduling",
+      "news-path": "/news/sap-order-and-delivery-scheduling",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row167": {
+      "key": "product/sap-predictive-asset-insights",
+      "label": "SAP Predictive Asset Insights",
+      "topic-path": "/topics/sap-predictive-asset-insights",
+      "news-path": "/news/sap-predictive-asset-insights",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row168": {
+      "key": "product/sap-predictive-demand-planning",
+      "label": "SAP Predictive Demand Planning",
+      "topic-path": "/topics/sap-predictive-demand-planning",
+      "news-path": "/news/sap-predictive-demand-planning",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row169": {
+      "key": "product/sap-predictive-replenishment",
+      "label": "SAP Predictive Replenishment",
+      "topic-path": "/topics/sap-predictive-replenishment",
+      "news-path": "/news/sap-predictive-replenishment",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row170": {
+      "key": "product/sap-product-footprint-management",
+      "label": "SAP Product Footprint Management",
+      "topic-path": "/topics/sap-product-footprint-management",
+      "news-path": "/news/sap-product-footprint-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row171": {
+      "key": "product/sap-responsible-design-and-production",
+      "label": "SAP Responsible Design and Production",
+      "topic-path": "/topics/sap-responsible-design-and-production",
+      "news-path": "/news/sap-responsible-design-and-production",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row172": {
+      "key": "product/sap-rural-sourcing-management",
+      "label": "SAP Rural Sourcing Management",
+      "topic-path": "/topics/sap-rural-sourcing-management",
+      "news-path": "/news/sap-rural-sourcing-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row173": {
+      "key": "product/sap-s4hana-cloud",
+      "label": "SAP S/4HANA Cloud",
+      "topic-path": "/topics/sap-s4hana-cloud",
+      "news-path": "/news/sap-s4hana-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row174": {
+      "key": "product/sap-s4hana-finance",
+      "label": "SAP S/4HANA Finance",
+      "topic-path": "/topics/sap-s4hana-finance",
+      "news-path": "/news/sap-s4hana-finance",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row175": {
+      "key": "product/sap-s4hana-retail",
+      "label": "SAP S/4HANA Retail",
+      "topic-path": "/topics/sap-s4hana-retail",
+      "news-path": "/news/sap-s4hana-retail",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row176": {
+      "key": "product/sap-sales-cloud",
+      "label": "SAP Sales Cloud",
+      "topic-path": "/topics/sap-sales-cloud",
+      "news-path": "/news/sap-sales-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row177": {
+      "key": "product/sap-service-cloud",
+      "label": "SAP Service Cloud",
+      "topic-path": "/topics/sap-service-cloud",
+      "news-path": "/news/sap-service-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row178": {
+      "key": "product/sap-signavio",
+      "label": "SAP Signavio",
+      "topic-path": "/topics/sap-signavio",
+      "news-path": "/news/sap-signavio",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row179": {
+      "key": "product/sap-signavio-process-explorer",
+      "label": "SAP Signavio Process Explorer",
+      "topic-path": "/topics/sap-signavio-process-explorer",
+      "news-path": "/news/sap-signavio-process-explorer",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row180": {
+      "key": "product/sap-signavio-process-manager",
+      "label": "SAP Signavio Process Manager",
+      "topic-path": "/topics/sap-signavio-process-manager",
+      "news-path": "/news/sap-signavio-process-manager",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row181": {
+      "key": "product/sap-solution-extensions",
+      "label": "SAP Solution Extensions",
+      "topic-path": "/topics/sap-solution-extensions",
+      "news-path": "/news/sap-solution-extensions",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row182": {
+      "key": "product/sap-solution-manager",
+      "label": "SAP Solution Manager",
+      "topic-path": "/topics/sap-solution-manager",
+      "news-path": "/news/sap-solution-manager",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row183": {
+      "key": "product/sap-spend-control-tower",
+      "label": "SAP Spend Control Tower",
+      "topic-path": "/topics/sap-spend-control-tower",
+      "news-path": "/news/sap-spend-control-tower",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row184": {
+      "key": "product/sap-sports-one",
+      "label": "SAP Sports One",
+      "topic-path": "/topics/sap-sports-one",
+      "news-path": "/news/sap-sports-one",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row185": {
+      "key": "product/sap-successfactors-compensation",
+      "label": "SAP SuccessFactors Compensation",
+      "topic-path": "/topics/sap-successfactors-compensation",
+      "news-path": "/news/sap-successfactors-compensation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row186": {
+      "key": "product/sap-successfactors-employee-central",
+      "label": "SAP SuccessFactors Employee Central",
+      "topic-path": "/topics/sap-successfactors-employee-central",
+      "news-path": "/news/sap-successfactors-employee-central",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row187": {
+      "key": "product/sap-successfactors-hxm-suite",
+      "label": "SAP SuccessFactors HXM Suite",
+      "topic-path": "/topics/sap-successfactors-hxm-suite",
+      "news-path": "/news/sap-successfactors-hxm-suite",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row188": {
+      "key": "product/sap-successfactors-learning",
+      "label": "SAP SuccessFactors Learning",
+      "topic-path": "/topics/sap-successfactors-learning",
+      "news-path": "/news/sap-successfactors-learning",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row189": {
+      "key": "product/sap-successfactors-onboarding",
+      "label": "SAP SuccessFactors Onboarding",
+      "topic-path": "/topics/sap-successfactors-onboarding",
+      "news-path": "/news/sap-successfactors-onboarding",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row190": {
+      "key": "product/sap-successfactors-opportunity-marketplace",
+      "label": "SAP SuccessFactors Opportunity Marketplace",
+      "topic-path": "/topics/sap-successfactors-opportunity-marketplace",
+      "news-path": "/news/sap-successfactors-opportunity-marketplace",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row191": {
+      "key": "product/sap-successfactors-people-analytics",
+      "label": "SAP SuccessFactors People Analytics",
+      "topic-path": "/topics/sap-successfactors-people-analytics",
+      "news-path": "/news/sap-successfactors-people-analytics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row192": {
+      "key": "product/sap-successfactors-performance-goals",
+      "label": "SAP SuccessFactors Performance & Goals",
+      "topic-path": "/topics/sap-successfactors-performance-goals",
+      "news-path": "/news/sap-successfactors-performance-goals",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row193": {
+      "key": "product/sap-successfactors-recruiting",
+      "label": "SAP SuccessFactors Recruiting",
+      "topic-path": "/topics/sap-successfactors-recruiting",
+      "news-path": "/news/sap-successfactors-recruiting",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row194": {
+      "key": "product/sap-successfactors-work-zone",
+      "label": "SAP SuccessFactors Work Zone",
+      "topic-path": "/topics/sap-successfactors-work-zone",
+      "news-path": "/news/sap-successfactors-work-zone",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row195": {
+      "key": "product/sap-successfactors-workforce-analytics",
+      "label": "SAP SuccessFactors Workforce Analytics",
+      "topic-path": "/topics/sap-successfactors-workforce-analytics",
+      "news-path": "/news/sap-successfactors-workforce-analytics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row196": {
+      "key": "product/sap-supply-chain-control-tower",
+      "label": "SAP Supply Chain Control Tower",
+      "topic-path": "/topics/sap-supply-chain-control-tower",
+      "news-path": "/news/sap-supply-chain-control-tower",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row197": {
+      "key": "product/sap-sustainability-control-tower",
+      "label": "SAP Sustainability Control Tower",
+      "topic-path": "/topics/sap-sustainability-control-tower",
+      "news-path": "/news/sap-sustainability-control-tower",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row198": {
+      "key": "product/sap-sustainability-data-exchange",
+      "label": "SAP Sustainability Data Exchange",
+      "topic-path": "/topics/sap-sustainability-data-exchange",
+      "news-path": "/news/sap-sustainability-data-exchange",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row199": {
+      "key": "product/sap-sustainability-footprint-management",
+      "label": "SAP Sustainability Footprint Manager",
+      "topic-path": "/topics/sap-sustainability-footprint-management",
+      "news-path": "/news/sap-sustainability-footprint-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row200": {
+      "key": "product/sap-translation-hub",
+      "label": "SAP Translation Hub",
+      "topic-path": "/topics/sap-translation-hub",
+      "news-path": "/news/sap-translation-hub",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row201": {
+      "key": "product/sap-transportation-management",
+      "label": "SAP Transportation Management",
+      "topic-path": "/topics/sap-transportation-management",
+      "news-path": "/news/sap-transportation-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row202": {
+      "key": "product/sap-warehouse-insights",
+      "label": "SAP Warehouse Insights",
+      "topic-path": "/topics/sap-warehouse-insights",
+      "news-path": "/news/sap-warehouse-insights",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row203": {
+      "key": "product/sap-warehouse-robotics",
+      "label": "SAP Warehouse Robotics",
+      "topic-path": "/topics/sap-warehouse-robotics",
+      "news-path": "/news/sap-warehouse-robotics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row204": {
+      "key": "product/sap-workflow-management",
+      "label": "SAP Workflow Management",
+      "topic-path": "/topics/sap-workflow-management",
+      "news-path": "/news/sap-workflow-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row205": {
+      "key": "news-tag/abap-cloud",
+      "label": "ABAP Cloud",
+      "topic-path": "0",
+      "news-path": "/news/abap-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row206": {
+      "key": "news-tag/accenture",
+      "label": "Accenture",
+      "topic-path": "0",
+      "news-path": "/news/accenture",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row207": {
+      "key": "news-tag/accessibility",
+      "label": "Accessibility",
+      "topic-path": "0",
+      "news-path": "/news/accessibility",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row208": {
+      "key": "news-tag/accounting",
+      "label": "Accounting",
+      "topic-path": "0",
+      "news-path": "/news/accounting",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row209": {
+      "key": "news-tag/ai-ethics",
+      "label": "AI Ethics",
+      "topic-path": "0",
+      "news-path": "/news/ai-ethics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row210": {
+      "key": "news-tag/annual-general-meeting",
+      "label": "Annual General Meeting",
+      "topic-path": "0",
+      "news-path": "/news/annual-general-meeting",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row211": {
+      "key": "news-tag/application-development",
+      "label": "Application Development",
+      "topic-path": "0",
+      "news-path": "/news/application-development",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row212": {
+      "key": "news-tag/application-lifecycle-management",
+      "label": "Application Lifecycle Management",
+      "topic-path": "0",
+      "news-path": "/news/application-lifecycle-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row213": {
+      "key": "news-tag/ar",
+      "label": "AR",
+      "topic-path": "0",
+      "news-path": "/news/ar",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row214": {
+      "key": "news-tag/art-at-sap",
+      "label": "Art at SAP",
+      "topic-path": "0",
+      "news-path": "/news/art-at-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row215": {
+      "key": "news-tag/asset-management",
+      "label": "Asset Management",
+      "topic-path": "0",
+      "news-path": "/news/asset-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row216": {
+      "key": "news-tag/autism-at-work",
+      "label": "Autism at Work",
+      "topic-path": "0",
+      "news-path": "/news/autism-at-work",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row217": {
+      "key": "news-tag/automation",
+      "label": "Automation",
+      "topic-path": "0",
+      "news-path": "/news/automation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row218": {
+      "key": "news-tag/aws",
+      "label": "AWS",
+      "topic-path": "0",
+      "news-path": "/news/aws",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row219": {
+      "key": "news-tag/back-to-best",
+      "label": "Back to Best",
+      "topic-path": "0",
+      "news-path": "/news/back-to-best",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row220": {
+      "key": "news-tag/bcg",
+      "label": "BCG",
+      "topic-path": "0",
+      "news-path": "/news/bcg",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row221": {
+      "key": "news-tag/blockchain",
+      "label": "Blockchain",
+      "topic-path": "0",
+      "news-path": "/news/blockchain",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row222": {
+      "key": "news-tag/bmw",
+      "label": "BMW",
+      "topic-path": "0",
+      "news-path": "/news/bmw",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row223": {
+      "key": "news-tag/bpaas",
+      "label": "BPaaS",
+      "topic-path": "0",
+      "news-path": "/news/bpaas",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row224": {
+      "key": "news-tag/building-resilience-series",
+      "label": "Building Resilience series",
+      "topic-path": "0",
+      "news-path": "/news/building-resilience-series",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row225": {
+      "key": "news-tag/built-in-support",
+      "label": "Built-In Support",
+      "topic-path": "0",
+      "news-path": "/news/built-in-support",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row226": {
+      "key": "news-tag/business-beyond-bias",
+      "label": "Business Beyond Bias",
+      "topic-path": "0",
+      "news-path": "/news/business-beyond-bias",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row227": {
+      "key": "news-tag/business-process-management",
+      "label": "Business Process Management",
+      "topic-path": "0",
+      "news-path": "/news/business-process-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row228": {
+      "key": "news-tag/business-process-transformation",
+      "label": "Business Process Transformation",
+      "topic-path": "0",
+      "news-path": "/news/business-process-transformation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row229": {
+      "key": "news-tag/business-womens-network",
+      "label": "Business Women’s Network",
+      "topic-path": "0",
+      "news-path": "/news/business-womens-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row230": {
+      "key": "news-tag/capgemini",
+      "label": "Capgemini",
+      "topic-path": "0",
+      "news-path": "/news/capgemini",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row231": {
+      "key": "news-tag/carbon-accounting",
+      "label": "Carbon Accounting",
+      "topic-path": "0",
+      "news-path": "/news/carbon-accounting",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row232": {
+      "key": "news-tag/carbon-emissions",
+      "label": "Carbon Emissions",
+      "topic-path": "0",
+      "news-path": "/news/carbon-emissions",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row233": {
+      "key": "news-tag/carbon-footprint",
+      "label": "Carbon Footprint",
+      "topic-path": "0",
+      "news-path": "/news/carbon-footprint",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row234": {
+      "key": "news-tag/carbon-neutrality",
+      "label": "Carbon Neutrality",
+      "topic-path": "0",
+      "news-path": "/news/carbon-neutrality",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row235": {
+      "key": "news-tag/catena-x",
+      "label": "Catena-X",
+      "topic-path": "0",
+      "news-path": "/news/catena-x",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row236": {
+      "key": "news-tag/cdp",
+      "label": "CDP",
+      "topic-path": "0",
+      "news-path": "/news/cdp",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row237": {
+      "key": "news-tag/chasing-zero",
+      "label": "Chasing Zero",
+      "topic-path": "0",
+      "news-path": "/news/chasing-zero",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row238": {
+      "key": "news-tag/chemical-industry-partner-series",
+      "label": "Chemical Industry Partner series",
+      "topic-path": "0",
+      "news-path": "/news/chemical-industry-partner-series",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row239": {
+      "key": "news-tag/china",
+      "label": "China",
+      "topic-path": "0",
+      "news-path": "/news/china",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row240": {
+      "key": "news-tag/circular-economy",
+      "label": "Circular Economy",
+      "topic-path": "0",
+      "news-path": "/news/circular-economy",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row241": {
+      "key": "news-tag/climate-21",
+      "label": "Climate 21",
+      "topic-path": "0",
+      "news-path": "/news/climate-21",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row242": {
+      "key": "news-tag/climate-action",
+      "label": "Climate Action",
+      "topic-path": "0",
+      "news-path": "/news/climate-action",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row243": {
+      "key": "news-tag/climate-change",
+      "label": "Climate Change",
+      "topic-path": "0",
+      "news-path": "/news/climate-change",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row244": {
+      "key": "news-tag/cloud-success-services",
+      "label": "Cloud Success Services",
+      "topic-path": "0",
+      "news-path": "/news/cloud-success-services",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row245": {
+      "key": "news-tag/coldplay",
+      "label": "Coldplay",
+      "topic-path": "0",
+      "news-path": "/news/coldplay",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row246": {
+      "key": "news-tag/commerce",
+      "label": "Commerce",
+      "topic-path": "0",
+      "news-path": "/news/commerce",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row247": {
+      "key": "news-tag/compliance",
+      "label": "Compliance",
+      "topic-path": "0",
+      "news-path": "/news/compliance",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row248": {
+      "key": "news-tag/concur-travel",
+      "label": "Concur Travel",
+      "topic-path": "0",
+      "news-path": "/news/concur-travel",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row249": {
+      "key": "news-tag/contingent-workforce-management",
+      "label": "Contingent Workforce Management",
+      "topic-path": "0",
+      "news-path": "/news/contingent-workforce-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row250": {
+      "key": "news-tag/csr",
+      "label": "CSR",
+      "topic-path": "0",
+      "news-path": "/news/csr",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row251": {
+      "key": "news-tag/coursera",
+      "label": "Coursera",
+      "topic-path": "0",
+      "news-path": "/news/coursera",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row252": {
+      "key": "news-tag/covid-19",
+      "label": "COVID-19",
+      "topic-path": "0",
+      "news-path": "/news/covid-19",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row253": {
+      "key": "news-tag/crn",
+      "label": "CRN",
+      "topic-path": "0",
+      "news-path": "/news/crn",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row254": {
+      "key": "news-tag/cryptocurrency",
+      "label": "Cryptocurrency",
+      "topic-path": "0",
+      "news-path": "/news/cryptocurrency",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row255": {
+      "key": "news-tag/customer-engagement",
+      "label": "Customer Engagement",
+      "topic-path": "0",
+      "news-path": "/news/customer-engagement",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row256": {
+      "key": "news-tag/customer-news",
+      "label": "Customer News",
+      "topic-path": "0",
+      "news-path": "/news/customer-news",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row257": {
+      "key": "news-tag/customer-solution-support-innovation",
+      "label": "Customer Solution Support & Innovation",
+      "topic-path": "0",
+      "news-path": "/news/customer-solution-support-innovation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row258": {
+      "key": "news-tag/customer-story",
+      "label": "Customer Story",
+      "topic-path": "0",
+      "news-path": "/news/customer-story",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row259": {
+      "key": "news-tag/customer-success",
+      "label": "Customer Success",
+      "topic-path": "0",
+      "news-path": "/news/customer-success",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row260": {
+      "key": "news-tag/cybersecurity",
+      "label": "Cybersecurity",
+      "topic-path": "0",
+      "news-path": "/news/cybersecurity",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row261": {
+      "key": "news-tag/data-fabric",
+      "label": "Data Fabric",
+      "topic-path": "0",
+      "news-path": "/news/data-fabric",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row262": {
+      "key": "news-tag/data-integration",
+      "label": "Data Integration",
+      "topic-path": "0",
+      "news-path": "/news/data-integration",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row263": {
+      "key": "news-tag/data-privacy",
+      "label": "Data Privacy",
+      "topic-path": "0",
+      "news-path": "/news/data-privacy",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row264": {
+      "key": "news-tag/data-security",
+      "label": "Data Security",
+      "topic-path": "0",
+      "news-path": "/news/data-security",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row265": {
+      "key": "news-tag/database-and-data-management",
+      "label": "Database and Data Management",
+      "topic-path": "0",
+      "news-path": "/news/database-and-data-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row266": {
+      "key": "news-tag/decarbonization",
+      "label": "Decarbonization",
+      "topic-path": "0",
+      "news-path": "/news/decarbonization",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row267": {
+      "key": "news-tag/deloitte",
+      "label": "Deloitte",
+      "topic-path": "0",
+      "news-path": "/news/deloitte",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row268": {
+      "key": "news-tag/developers",
+      "label": "Developers",
+      "topic-path": "0",
+      "news-path": "/news/developers",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row269": {
+      "key": "news-tag/digital-commerce",
+      "label": "Digital Commerce",
+      "topic-path": "0",
+      "news-path": "/news/digital-commerce",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row270": {
+      "key": "news-tag/digital-education",
+      "label": "Digital Education",
+      "topic-path": "0",
+      "news-path": "/news/digital-education",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row271": {
+      "key": "news-tag/digital-skills",
+      "label": "Digital Skills",
+      "topic-path": "0",
+      "news-path": "/news/digital-skills",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row272": {
+      "key": "news-tag/digital-skills-gap",
+      "label": "Digital Skills Gap",
+      "topic-path": "0",
+      "news-path": "/news/digital-skills-gap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row273": {
+      "key": "news-tag/digital-supply-chain",
+      "label": "Digital Supply Chain",
+      "topic-path": "0",
+      "news-path": "/news/digital-supply-chain",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row274": {
+      "key": "news-tag/digital-transformation",
+      "label": "Digital Transformation",
+      "topic-path": "0",
+      "news-path": "/news/digital-transformation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row275": {
+      "key": "news-tag/digital-twin",
+      "label": "Digital Twin",
+      "topic-path": "0",
+      "news-path": "/news/digital-twin",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row276": {
+      "key": "news-tag/digitalization",
+      "label": "Digitalization",
+      "topic-path": "0",
+      "news-path": "/news/digitalization",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row277": {
+      "key": "news-tag/digitization",
+      "label": "Digitization",
+      "topic-path": "0",
+      "news-path": "/news/digitization",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row278": {
+      "key": "news-tag/discrete-industries",
+      "label": "discrete-industries",
+      "topic-path": "0",
+      "news-path": "/news/discrete-industries",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row279": {
+      "key": "news-tag/diversity-at-sap",
+      "label": "Diversity at SAP",
+      "topic-path": "0",
+      "news-path": "/news/diversity-at-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row280": {
+      "key": "news-tag/diversity-and-inclusion",
+      "label": "Diversity and Inclusion",
+      "topic-path": "0",
+      "news-path": "/news/diversity-and-inclusion",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row281": {
+      "key": "news-tag/djsi",
+      "label": "DJSI",
+      "topic-path": "0",
+      "news-path": "/news/djsi",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row282": {
+      "key": "news-tag/dynamic-teams",
+      "label": "Dynamic Teams",
+      "topic-path": "0",
+      "news-path": "/news/dynamic-teams",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row283": {
+      "key": "news-tag/e-commerce",
+      "label": "E-Commerce",
+      "topic-path": "0",
+      "news-path": "/news/e-commerce",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row284": {
+      "key": "news-tag/e-mobility",
+      "label": "E-Mobility",
+      "topic-path": "0",
+      "news-path": "/news/e-mobility",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row285": {
+      "key": "news-tag/earnings",
+      "label": "Earnings",
+      "topic-path": "0",
+      "news-path": "/news/earnings",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row286": {
+      "key": "news-tag/economics",
+      "label": "Economics",
+      "topic-path": "0",
+      "news-path": "/news/economics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row287": {
+      "key": "news-tag/education",
+      "label": "Education",
+      "topic-path": "0",
+      "news-path": "/news/education",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row288": {
+      "key": "news-tag/electric-vehicles",
+      "label": "Electric Vehicles",
+      "topic-path": "0",
+      "news-path": "/news/electric-vehicles",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row289": {
+      "key": "news-tag/sap-emarsys",
+      "label": "SAP Emarsys",
+      "topic-path": "0",
+      "news-path": "/news/sap-emarsys",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row290": {
+      "key": "news-tag/employee-engagement",
+      "label": "Employee Engagement",
+      "topic-path": "0",
+      "news-path": "/news/employee-engagement",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row291": {
+      "key": "news-tag/employee-experience",
+      "label": "Employee Experience",
+      "topic-path": "0",
+      "news-path": "/news/employee-experience",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row292": {
+      "key": "news-tag/employee-network-groups",
+      "label": "Employee Network Groups",
+      "topic-path": "0",
+      "news-path": "/news/employee-network-groups",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row293": {
+      "key": "news-tag/enterprise-applications",
+      "label": "Enterprise Applications",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-applications",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row294": {
+      "key": "news-tag/enterprise-architecture-management",
+      "label": "Enterprise Architecture Management",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-architecture-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row295": {
+      "key": "news-tag/enterprise-asset-management",
+      "label": "Enterprise Asset Management",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-asset-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row296": {
+      "key": "news-tag/enterprise-integration",
+      "label": "Enterprise Integration",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-integration",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row297": {
+      "key": "news-tag/enterprise-performance-management",
+      "label": "Enterprise Performance Management",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-performance-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row298": {
+      "key": "news-tag/enterprise-resource-planning",
+      "label": "Enterprise Resource Planning",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-resource-planning",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row299": {
+      "key": "news-tag/enterprise-risk-management",
+      "label": "Enterprise Risk Management",
+      "topic-path": "0",
+      "news-path": "/news/enterprise-risk-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row300": {
+      "key": "news-tag/entrepreneurship",
+      "label": "Entrepreneurship",
+      "topic-path": "0",
+      "news-path": "/news/entrepreneurship",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row301": {
+      "key": "news-tag/esg",
+      "label": "ESG",
+      "topic-path": "0",
+      "news-path": "/news/esg",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row302": {
+      "key": "news-tag/esports",
+      "label": "Esports",
+      "topic-path": "0",
+      "news-path": "/news/esports",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row303": {
+      "key": "news-tag/experience-economy",
+      "label": "Experience Economy",
+      "topic-path": "0",
+      "news-path": "/news/experience-economy",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row304": {
+      "key": "news-tag/experience-management",
+      "label": "Experience Management",
+      "topic-path": "0",
+      "news-path": "/news/experience-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row305": {
+      "key": "news-tag/expert-chat",
+      "label": "Expert Chat",
+      "topic-path": "0",
+      "news-path": "/news/expert-chat",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row306": {
+      "key": "news-tag/external-workforce-management",
+      "label": "External Workforce Management",
+      "topic-path": "0",
+      "news-path": "/news/external-workforce-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row307": {
+      "key": "news-tag/ey",
+      "label": "EY",
+      "topic-path": "0",
+      "news-path": "/news/ey",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row308": {
+      "key": "news-tag/fashion",
+      "label": "Fashion",
+      "topic-path": "0",
+      "news-path": "/news/fashion",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row309": {
+      "key": "news-tag/field-service-management",
+      "label": "Field Service Management",
+      "topic-path": "0",
+      "news-path": "/news/field-service-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row310": {
+      "key": "news-tag/financial-services",
+      "label": "Financial Services",
+      "topic-path": "0",
+      "news-path": "/news/financial-services",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row311": {
+      "key": "news-tag/fintech",
+      "label": "Fintech",
+      "topic-path": "0",
+      "news-path": "/news/fintech",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row312": {
+      "key": "news-tag/forrester",
+      "label": "Forrester",
+      "topic-path": "0",
+      "news-path": "/news/forrester",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row313": {
+      "key": "news-tag/future-of-work",
+      "label": "Future of Work",
+      "topic-path": "0",
+      "news-path": "/news/future-of-work",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row314": {
+      "key": "news-tag/gartner",
+      "label": "Gartner",
+      "topic-path": "0",
+      "news-path": "/news/gartner",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row315": {
+      "key": "news-tag/gender-equality",
+      "label": "Gender Equality",
+      "topic-path": "0",
+      "news-path": "/news/gender-equality",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row316": {
+      "key": "news-tag/generation-unlimited",
+      "label": "Generation Unlimited",
+      "topic-path": "0",
+      "news-path": "/news/generation-unlimited",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row317": {
+      "key": "news-tag/google-cloud",
+      "label": "Google Cloud",
+      "topic-path": "0",
+      "news-path": "/news/google-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row318": {
+      "key": "news-tag/grc",
+      "label": "GRC",
+      "topic-path": "0",
+      "news-path": "/news/grc",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row319": {
+      "key": "news-tag/green-ledger",
+      "label": "Green Ledger",
+      "topic-path": "0",
+      "news-path": "/news/green-ledger",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row320": {
+      "key": "news-tag/greenhouse-gas-emissions",
+      "label": "Greenhouse Gas Emissions",
+      "topic-path": "0",
+      "news-path": "/news/greenhouse-gas-emissions",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row321": {
+      "key": "news-tag/grow-with-sap",
+      "label": "GROW with SAP",
+      "topic-path": "0",
+      "news-path": "/news/grow-with-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row322": {
+      "key": "news-tag/hannover-messe",
+      "label": "Hannover Messe",
+      "topic-path": "0",
+      "news-path": "/news/hannover-messe",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row323": {
+      "key": "news-tag/horizons-by-sap",
+      "label": "Horizons by SAP",
+      "topic-path": "0",
+      "news-path": "/news/horizons-by-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row324": {
+      "key": "news-tag/human-centered-innovation",
+      "label": "Human Centered Innovation",
+      "topic-path": "0",
+      "news-path": "/news/human-centered-innovation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row325": {
+      "key": "news-tag/hxm",
+      "label": "HXM",
+      "topic-path": "0",
+      "news-path": "/news/hxm",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row326": {
+      "key": "news-tag/ibm",
+      "label": "IBM",
+      "topic-path": "0",
+      "news-path": "/news/ibm",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row327": {
+      "key": "news-tag/icertis",
+      "label": "Icertis",
+      "topic-path": "0",
+      "news-path": "/news/icertis",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row328": {
+      "key": "news-tag/idc",
+      "label": "IDC",
+      "topic-path": "0",
+      "news-path": "/news/idc",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row329": {
+      "key": "news-tag/idc-marketscape",
+      "label": "IDC Marketscape",
+      "topic-path": "0",
+      "news-path": "/news/idc-marketscape",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row330": {
+      "key": "news-tag/iiot",
+      "label": "IIoT",
+      "topic-path": "0",
+      "news-path": "/news/iiot",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row331": {
+      "key": "news-tag/in-focus",
+      "label": "In Focus",
+      "topic-path": "0",
+      "news-path": "/news/in-focus",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row332": {
+      "key": "news-tag/incident-solution-matching",
+      "label": "Incident Solution Matching",
+      "topic-path": "0",
+      "news-path": "/news/incident-solution-matching",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row333": {
+      "key": "news-tag/manufacturing-2",
+      "label": "Industrial Manufacturing",
+      "topic-path": "0",
+      "news-path": "/news/manufacturing-2",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row334": {
+      "key": "news-tag/industry-4-0",
+      "label": "Industry 4.0",
+      "topic-path": "0",
+      "news-path": "/news/industry-4-0",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row335": {
+      "key": "news-tag/industry-4-now",
+      "label": "Industry 4.Now",
+      "topic-path": "0",
+      "news-path": "/news/industry-4-now",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row336": {
+      "key": "news-tag/industry-cloud",
+      "label": "Industry Cloud",
+      "topic-path": "0",
+      "news-path": "/news/industry-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row337": {
+      "key": "news-tag/inflation",
+      "label": "Inflation",
+      "topic-path": "0",
+      "news-path": "/news/inflation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row338": {
+      "key": "news-tag/innovation",
+      "label": "Innovation",
+      "topic-path": "0",
+      "news-path": "/news/innovation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row339": {
+      "key": "news-tag/integration",
+      "label": "Integration",
+      "topic-path": "0",
+      "news-path": "/news/integration",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row340": {
+      "key": "news-tag/intelligent-enterprise",
+      "label": "Intelligent Enterprise",
+      "topic-path": "0",
+      "news-path": "/news/intelligent-enterprise",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row341": {
+      "key": "news-tag/intelligent-erp",
+      "label": "Intelligent ERP",
+      "topic-path": "0",
+      "news-path": "/news/intelligent-erp",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row342": {
+      "key": "news-tag/intelligent-spend",
+      "label": "Intelligent Spend",
+      "topic-path": "0",
+      "news-path": "/news/intelligent-spend",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row343": {
+      "key": "news-tag/intelligent-technologies",
+      "label": "Intelligent Technologies",
+      "topic-path": "0",
+      "news-path": "/news/intelligent-technologies",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row344": {
+      "key": "news-tag/internet-of-things",
+      "label": "Internet of Things",
+      "topic-path": "0",
+      "news-path": "/news/internet-of-things",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row345": {
+      "key": "news-tag/investor-relations",
+      "label": "Investor Relations",
+      "topic-path": "0",
+      "news-path": "/news/investor-relations",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row346": {
+      "key": "news-tag/joule",
+      "label": "Joule",
+      "topic-path": "0",
+      "news-path": "/news/joule",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row347": {
+      "key": "news-tag/leadership",
+      "label": "Leadership",
+      "topic-path": "0",
+      "news-path": "/news/leadership",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row348": {
+      "key": "news-tag/learning",
+      "label": "Learning",
+      "topic-path": "0",
+      "news-path": "/news/learning",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row349": {
+      "key": "news-tag/learning-for-life",
+      "label": "Learning for Life",
+      "topic-path": "0",
+      "news-path": "/news/learning-for-life",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row350": {
+      "key": "news-tag/learning-management-system",
+      "label": "Learning Management System",
+      "topic-path": "0",
+      "news-path": "/news/learning-management-system",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row351": {
+      "key": "news-tag/leed-certification",
+      "label": "LEED Certification",
+      "topic-path": "0",
+      "news-path": "/news/leed-certification",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row352": {
+      "key": "news-tag/life-at-sap",
+      "label": "Life at SAP",
+      "topic-path": "0",
+      "news-path": "/news/life-at-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row353": {
+      "key": "news-tag/low-code-no-code",
+      "label": "Low-Code No-Code",
+      "topic-path": "0",
+      "news-path": "/news/low-code-no-code",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row354": {
+      "key": "news-tag/machine-learning",
+      "label": "Machine Learning",
+      "topic-path": "0",
+      "news-path": "/news/machine-learning",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row355": {
+      "key": "news-tag/magic-quadrant",
+      "label": "Magic Quadrant",
+      "topic-path": "0",
+      "news-path": "/news/magic-quadrant",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row356": {
+      "key": "news-tag/manufacturing-x",
+      "label": "Manufacturing-X",
+      "topic-path": "0",
+      "news-path": "/news/manufacturing-x",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row357": {
+      "key": "news-tag/master-data-management",
+      "label": "Master Data Management",
+      "topic-path": "0",
+      "news-path": "/news/master-data-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row358": {
+      "key": "news-tag/mental-health-well-being",
+      "label": "Mental Health and Well-Being",
+      "topic-path": "0",
+      "news-path": "/news/mental-health-well-being",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row359": {
+      "key": "news-tag/mercedes",
+      "label": "Mercedes",
+      "topic-path": "0",
+      "news-path": "/news/mercedes",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row360": {
+      "key": "news-tag/metaverse",
+      "label": "Metaverse",
+      "topic-path": "0",
+      "news-path": "/news/metaverse",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row361": {
+      "key": "news-tag/microsoft",
+      "label": "Microsoft",
+      "topic-path": "0",
+      "news-path": "/news/microsoft",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row362": {
+      "key": "news-tag/mobile",
+      "label": "Mobile",
+      "topic-path": "0",
+      "news-path": "/news/mobile",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row363": {
+      "key": "news-tag/moments-of-service",
+      "label": "Moments of Service",
+      "topic-path": "0",
+      "news-path": "/news/moments-of-service",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row364": {
+      "key": "news-tag/moocs",
+      "label": "MOOCs",
+      "topic-path": "0",
+      "news-path": "/news/moocs",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row365": {
+      "key": "news-tag/net-zero",
+      "label": "Net Zero",
+      "topic-path": "0",
+      "news-path": "/news/net-zero",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row366": {
+      "key": "news-tag/new-ventures-and-technologies",
+      "label": "New Ventures and Technologies",
+      "topic-path": "0",
+      "news-path": "/news/new-ventures-and-technologies",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row367": {
+      "key": "news-tag/new-zealand-rugby",
+      "label": "New Zealand Rugby",
+      "topic-path": "0",
+      "news-path": "/news/new-zealand-rugby",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row368": {
+      "key": "news-tag/next-generation-partnering",
+      "label": "Next-Generation Partnering",
+      "topic-path": "0",
+      "news-path": "/news/next-generation-partnering",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row369": {
+      "key": "news-tag/nhl",
+      "label": "NHL",
+      "topic-path": "0",
+      "news-path": "/news/nhl",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row370": {
+      "key": "news-tag/nrf",
+      "label": "NRF",
+      "topic-path": "0",
+      "news-path": "/news/nrf",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row371": {
+      "key": "news-tag/opensap",
+      "label": "openSAP",
+      "topic-path": "0",
+      "news-path": "/news/opensap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row372": {
+      "key": "news-tag/opentext",
+      "label": "OpenText",
+      "topic-path": "0",
+      "news-path": "/news/opentext",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row373": {
+      "key": "news-tag/oxford-economics",
+      "label": "Oxford Economics",
+      "topic-path": "0",
+      "news-path": "/news/oxford-economics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row374": {
+      "key": "news-tag/partners",
+      "label": "Partners",
+      "topic-path": "0",
+      "news-path": "/news/partners",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row375": {
+      "key": "news-tag/people-sustainability",
+      "label": "People Sustainability",
+      "topic-path": "0",
+      "news-path": "/news/people-sustainability",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row376": {
+      "key": "news-tag/pledge-to-flex",
+      "label": "Pledge to Flex",
+      "topic-path": "0",
+      "news-path": "/news/pledge-to-flex",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row377": {
+      "key": "news-tag/premium-engagement",
+      "label": "Premium Engagement",
+      "topic-path": "0",
+      "news-path": "/news/premium-engagement",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row378": {
+      "key": "news-tag/pridesap",
+      "label": "Pride@SAP",
+      "topic-path": "0",
+      "news-path": "/news/pridesap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row379": {
+      "key": "news-tag/pro-bono-for-economic-equity",
+      "label": "Pro Bono for Economic Equity",
+      "topic-path": "0",
+      "news-path": "/news/pro-bono-for-economic-equity",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row380": {
+      "key": "news-tag/process-mining",
+      "label": "Process Mining",
+      "topic-path": "0",
+      "news-path": "/news/process-mining",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row381": {
+      "key": "news-tag/procure-to-pay",
+      "label": "Procure to Pay",
+      "topic-path": "0",
+      "news-path": "/news/procure-to-pay",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row382": {
+      "key": "news-tag/product-support",
+      "label": "Product Support",
+      "topic-path": "0",
+      "news-path": "/news/product-support",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row383": {
+      "key": "news-tag/purpose",
+      "label": "Purpose",
+      "topic-path": "0",
+      "news-path": "/news/purpose",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row384": {
+      "key": "news-tag/pwc",
+      "label": "PwC",
+      "topic-path": "0",
+      "news-path": "/news/pwc",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row385": {
+      "key": "news-tag/pyxera-global",
+      "label": "PYXERA Global",
+      "topic-path": "0",
+      "news-path": "/news/pyxera-global",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row386": {
+      "key": "news-tag/qualtrics",
+      "label": "Qualtrics",
+      "topic-path": "0",
+      "news-path": "/news/qualtrics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row387": {
+      "key": "news-tag/quantum-computing",
+      "label": "Quantum Computing",
+      "topic-path": "0",
+      "news-path": "/news/quantum-computing",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row388": {
+      "key": "news-tag/quote-to-cash",
+      "label": "Quote-to-Cash",
+      "topic-path": "0",
+      "news-path": "/news/quote-to-cash",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row389": {
+      "key": "news-tag/real-time-support",
+      "label": "Real-Time Support",
+      "topic-path": "0",
+      "news-path": "/news/real-time-support",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row390": {
+      "key": "news-tag/recruiting",
+      "label": "Recruiting",
+      "topic-path": "0",
+      "news-path": "/news/recruiting",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row391": {
+      "key": "news-tag/recurring-revenue-models",
+      "label": "Recurring Revenue Models",
+      "topic-path": "0",
+      "news-path": "/news/recurring-revenue-models",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row392": {
+      "key": "news-tag/redefining-youth",
+      "label": "Redefining (YOU)th",
+      "topic-path": "0",
+      "news-path": "/news/redefining-youth",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row393": {
+      "key": "news-tag/renewable-energy",
+      "label": "Renewable Energy",
+      "topic-path": "0",
+      "news-path": "/news/renewable-energy",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row394": {
+      "key": "news-tag/research-development",
+      "label": "Research Development",
+      "topic-path": "0",
+      "news-path": "/news/research-development",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row395": {
+      "key": "news-tag/rise-with-sap",
+      "label": "RISE with SAP",
+      "topic-path": "0",
+      "news-path": "/news/rise-with-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row396": {
+      "key": "news-tag/rpa",
+      "label": "Robotic Process Automation (RPA)",
+      "topic-path": "0",
+      "news-path": "/news/rpa",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row397": {
+      "key": "news-tag/sales-performance-management",
+      "label": "Sales Performance Management",
+      "topic-path": "0",
+      "news-path": "/news/sales-performance-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row398": {
+      "key": "news-tag/sap-activate",
+      "label": "SAP Activate",
+      "topic-path": "0",
+      "news-path": "/news/sap-activate",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row399": {
+      "key": "news-tag/sap-activeattention",
+      "label": "SAP ActiveAttention",
+      "topic-path": "0",
+      "news-path": "/news/sap-activeattention",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row400": {
+      "key": "news-tag/sap-advanced-track-and-trace-for-pharmaceuticals",
+      "label": "SAP Advanced Track and Trace for Pharmaceuticals",
+      "topic-path": "0",
+      "news-path": "/news/sap-advanced-track-and-trace-for-pharmaceuticals",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row401": {
+      "key": "news-tag/sap-advisory-services",
+      "label": "SAP Advisory Services",
+      "topic-path": "0",
+      "news-path": "/news/sap-advisory-services",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row402": {
+      "key": "news-tag/sap-analytics",
+      "label": "SAP Analytics",
+      "topic-path": "0",
+      "news-path": "/news/sap-analytics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row403": {
+      "key": "news-tag/sap-anz",
+      "label": "SAP ANZ",
+      "topic-path": "0",
+      "news-path": "/news/sap-anz",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row404": {
+      "key": "news-tag/sap-appgyver",
+      "label": "SAP AppGyver",
+      "topic-path": "0",
+      "news-path": "/news/sap-appgyver",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row405": {
+      "key": "news-tag/sap-apphaus",
+      "label": "SAP AppHaus",
+      "topic-path": "0",
+      "news-path": "/news/sap-apphaus",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row406": {
+      "key": "news-tag/sap-apphaus-network",
+      "label": "SAP AppHaus Network",
+      "topic-path": "0",
+      "news-path": "/news/sap-apphaus-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row407": {
+      "key": "news-tag/sap-ariba",
+      "label": "SAP Ariba",
+      "topic-path": "0",
+      "news-path": "/news/sap-ariba",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row408": {
+      "key": "news-tag/sap-procurement-solutions",
+      "label": "SAP Procurement Solutions",
+      "topic-path": "0",
+      "news-path": "/news/sap-procurement-solutions",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row409": {
+      "key": "news-tag/sap-assortment-planning",
+      "label": "SAP Assortment Planning",
+      "topic-path": "0",
+      "news-path": "/news/sap-assortment-planning",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row410": {
+      "key": "news-tag/sap-at-unga",
+      "label": "SAP at UNGA",
+      "topic-path": "0",
+      "news-path": "/news/sap-at-unga",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row411": {
+      "key": "news-tag/sap-btp-in-the-sap-ecosystem",
+      "label": "SAP BTP in the SAP Ecosystem",
+      "topic-path": "0",
+      "news-path": "/news/sap-btp-in-the-sap-ecosystem",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row412": {
+      "key": "news-tag/sap-business-journeys",
+      "label": "SAP Business Journeys",
+      "topic-path": "0",
+      "news-path": "/news/sap-business-journeys",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row413": {
+      "key": "news-tag/sap-business-network",
+      "label": "SAP Business Network",
+      "topic-path": "0",
+      "news-path": "/news/sap-business-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row414": {
+      "key": "news-tag/sap-business-network-for-industry",
+      "label": "SAP Business Network for Industry",
+      "topic-path": "0",
+      "news-path": "/news/sap-business-network-for-industry",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row415": {
+      "key": "news-tag/sap-business-warehouse",
+      "label": "SAP Business Warehouse",
+      "topic-path": "0",
+      "news-path": "/news/sap-business-warehouse",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row416": {
+      "key": "news-tag/sap-canada",
+      "label": "SAP Canada",
+      "topic-path": "0",
+      "news-path": "/news/sap-canada",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row417": {
+      "key": "news-tag/sap-certification",
+      "label": "SAP Certification",
+      "topic-path": "0",
+      "news-path": "/news/sap-certification",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row418": {
+      "key": "news-tag/sap-cloud-application-services",
+      "label": "SAP Cloud Application Services",
+      "topic-path": "0",
+      "news-path": "/news/sap-cloud-application-services",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row419": {
+      "key": "news-tag/sap-co-innovation-lab",
+      "label": "SAP Co-Innovation Lab",
+      "topic-path": "0",
+      "news-path": "/news/sap-co-innovation-lab",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row420": {
+      "key": "news-tag/sap-community",
+      "label": "SAP Community",
+      "topic-path": "0",
+      "news-path": "/news/sap-community",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row421": {
+      "key": "news-tag/sap-concur",
+      "label": "SAP Concur",
+      "topic-path": "0",
+      "news-path": "/news/sap-concur",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row422": {
+      "key": "news-tag/sap-csr",
+      "label": "SAP CSR",
+      "topic-path": "0",
+      "news-path": "/news/sap-csr",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row423": {
+      "key": "news-tag/sap-customer-experience",
+      "label": "SAP Customer Experience",
+      "topic-path": "0",
+      "news-path": "/news/sap-customer-experience",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row424": {
+      "key": "news-tag/sap-cx-ai-toolkit",
+      "label": "SAP CX AI Toolkit",
+      "topic-path": "0",
+      "news-path": "/news/sap-cx-ai-toolkit",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row425": {
+      "key": "news-tag/sap-design",
+      "label": "SAP Design",
+      "topic-path": "0",
+      "news-path": "/news/sap-design",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row426": {
+      "key": "news-tag/sap-digital-assistant",
+      "label": "SA Digital Assistant",
+      "topic-path": "0",
+      "news-path": "/news/sap-digital-assistant",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row427": {
+      "key": "news-tag/sap-digital-commerce",
+      "label": "SAP Digital Commerce",
+      "topic-path": "0",
+      "news-path": "/news/sap-digital-commerce",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row428": {
+      "key": "news-tag/sap-digital-supply-chain",
+      "label": "SAP Digital Supply Chain",
+      "topic-path": "0",
+      "news-path": "/news/sap-digital-supply-chain",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row429": {
+      "key": "news-tag/sap-educate-to-employ",
+      "label": "SAP Educate to Employ",
+      "topic-path": "0",
+      "news-path": "/news/sap-educate-to-employ",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row430": {
+      "key": "news-tag/sap-employee-profile",
+      "label": "SAP Employee Profile",
+      "topic-path": "0",
+      "news-path": "/news/sap-employee-profile",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row431": {
+      "key": "news-tag/sap-endorsed-apps",
+      "label": "SAP Endorsed Apps",
+      "topic-path": "0",
+      "news-path": "/news/sap-endorsed-apps",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row432": {
+      "key": "news-tag/sap-enterprise-adoption",
+      "label": "SAP Enterprise Adoption",
+      "topic-path": "0",
+      "news-path": "/news/sap-enterprise-adoption",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row433": {
+      "key": "news-tag/sap-enterprise-support",
+      "label": "SAP Enterprise Support",
+      "topic-path": "0",
+      "news-path": "/news/sap-enterprise-support",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row434": {
+      "key": "news-tag/sap-erp-hcm",
+      "label": "SAP ERP HCM",
+      "topic-path": "0",
+      "news-path": "/news/sap-erp-hcm",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row435": {
+      "key": "news-tag/sap-experience-center",
+      "label": "SAP Experience Center",
+      "topic-path": "0",
+      "news-path": "/news/sap-experience-center",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row436": {
+      "key": "news-tag/sap-extreme-series",
+      "label": "SAP Extreme Series",
+      "topic-path": "0",
+      "news-path": "/news/sap-extreme-series",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row437": {
+      "key": "news-tag/sap-fieldglass",
+      "label": "SAP Fieldglass",
+      "topic-path": "0",
+      "news-path": "/news/sap-fieldglass",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row438": {
+      "key": "news-tag/sap-fioneer",
+      "label": "SAP Fioneer",
+      "topic-path": "0",
+      "news-path": "/news/sap-fioneer",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row439": {
+      "key": "news-tag/sap-fiori",
+      "label": "SAP Fiori",
+      "topic-path": "0",
+      "news-path": "/news/sap-fiori",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row440": {
+      "key": "news-tag/sap-for-insurance",
+      "label": "SAP for Insurance",
+      "topic-path": "0",
+      "news-path": "/news/sap-for-insurance",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row441": {
+      "key": "news-tag/sap-for-me",
+      "label": "SAP for Me",
+      "topic-path": "0",
+      "news-path": "/news/sap-for-me",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row442": {
+      "key": "news-tag/sap-global-mindfulness",
+      "label": "SAP Global Mindfulness",
+      "topic-path": "0",
+      "news-path": "/news/sap-global-mindfulness",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row443": {
+      "key": "news-tag/sap-hana",
+      "label": "SAP HANA",
+      "topic-path": "0",
+      "news-path": "/news/sap-hana",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row444": {
+      "key": "news-tag/sap-hana-enterprise-cloud",
+      "label": "SAP HANA Enterprise Cloud",
+      "topic-path": "0",
+      "news-path": "/news/sap-hana-enterprise-cloud",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row445": {
+      "key": "news-tag/sap-help-portal",
+      "label": "SAP Help Portal",
+      "topic-path": "0",
+      "news-path": "/news/sap-help-portal",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row446": {
+      "key": "news-tag/sap-history",
+      "label": "SAP History",
+      "topic-path": "0",
+      "news-path": "/news/sap-history",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row447": {
+      "key": "news-tag/sap-hxm-movement",
+      "label": "SAP HXM Movement",
+      "topic-path": "0",
+      "news-path": "/news/sap-hxm-movement",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row448": {
+      "key": "news-tag/sap-industry-network-for-automotive",
+      "label": "SAP Industry Network for Automotive",
+      "topic-path": "0",
+      "news-path": "/news/sap-industry-network-for-automotive",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row449": {
+      "key": "news-tag/sap-innovation-center-network",
+      "label": "SAP Innovation Center Network",
+      "topic-path": "0",
+      "news-path": "/news/sap-innovation-center-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row450": {
+      "key": "news-tag/sap-innovations4good",
+      "label": "SAP Innovations4Good",
+      "topic-path": "0",
+      "news-path": "/news/sap-innovations4good",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row451": {
+      "key": "news-tag/sap-insights",
+      "label": "SAP Insights",
+      "topic-path": "0",
+      "news-path": "/news/sap-insights",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row452": {
+      "key": "news-tag/sap-integrated-delivery-framework",
+      "label": "SAP Integrated Delivery Framework",
+      "topic-path": "0",
+      "news-path": "/news/sap-integrated-delivery-framework",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row453": {
+      "key": "news-tag/sap-investor-relations",
+      "label": "SAP Investor Relations",
+      "topic-path": "0",
+      "news-path": "/news/sap-investor-relations",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row454": {
+      "key": "news-tag/sap-knowledge-and-education",
+      "label": "SAP Knowledge and Education",
+      "topic-path": "0",
+      "news-path": "/news/sap-knowledge-and-education",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row455": {
+      "key": "news-tag/sap-labs-network",
+      "label": "SAP Labs Network",
+      "topic-path": "0",
+      "news-path": "/news/sap-labs-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row456": {
+      "key": "news-tag/sap-maxattention",
+      "label": "SAP MaxAttention",
+      "topic-path": "0",
+      "news-path": "/news/sap-maxattention",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row457": {
+      "key": "news-tag/sap-maxattention-summit",
+      "label": "SAP MaxAttention Summit",
+      "topic-path": "0",
+      "news-path": "/news/sap-maxattention-summit",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row458": {
+      "key": "news-tag/sap-next-gen",
+      "label": "SAP Next-Gen",
+      "topic-path": "0",
+      "news-path": "/news/sap-next-gen",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row459": {
+      "key": "news-tag/sap-north-america",
+      "label": "SAP North America",
+      "topic-path": "0",
+      "news-path": "/news/sap-north-america",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row460": {
+      "key": "news-tag/sap-ns2",
+      "label": "SAP NS2",
+      "topic-path": "0",
+      "news-path": "/news/sap-ns2",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row461": {
+      "key": "news-tag/sap-one-billion-lives",
+      "label": "SAP One Billion Lives",
+      "topic-path": "0",
+      "news-path": "/news/sap-one-billion-lives",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row462": {
+      "key": "news-tag/sap-one-support-launchpad",
+      "label": "SAP One Support Launchpad",
+      "topic-path": "0",
+      "news-path": "/news/sap-one-support-launchpad",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row463": {
+      "key": "news-tag/sap-original-series-forward",
+      "label": "SAP original series Forward",
+      "topic-path": "0",
+      "news-path": "/news/sap-original-series-forward",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row464": {
+      "key": "news-tag/sap-partner-demo-environment",
+      "label": "SAP Partner Demo Environment",
+      "topic-path": "0",
+      "news-path": "/news/sap-partner-demo-environment",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row465": {
+      "key": "news-tag/sap-partneredge",
+      "label": "SAP PartnerEdge",
+      "topic-path": "0",
+      "news-path": "/news/sap-partneredge",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row466": {
+      "key": "news-tag/sap-partneredge-build",
+      "label": "SAP PartnerEdge Build",
+      "topic-path": "0",
+      "news-path": "/news/sap-partneredge-build",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row467": {
+      "key": "news-tag/sap-partners4customer-success",
+      "label": "SAP Partners4Customer Success",
+      "topic-path": "0",
+      "news-path": "/news/sap-partners4customer-success",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row468": {
+      "key": "news-tag/sap-pioneers",
+      "label": "SAP Pioneers",
+      "topic-path": "0",
+      "news-path": "/news/sap-pioneers",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row469": {
+      "key": "news-tag/sap-preferred-success",
+      "label": "SAP Preferred Success",
+      "topic-path": "0",
+      "news-path": "/news/sap-preferred-success",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row470": {
+      "key": "news-tag/sap-preferred-success-cloud-series",
+      "label": "SAP Preferred Success cloud series",
+      "topic-path": "0",
+      "news-path": "/news/sap-preferred-success-cloud-series",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row471": {
+      "key": "news-tag/sap-product-carbon-footprint-analytics",
+      "label": "SAP Product Carbon Footprint Analytics",
+      "topic-path": "0",
+      "news-path": "/news/sap-product-carbon-footprint-analytics",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row472": {
+      "key": "news-tag/sap-purpose-network",
+      "label": "SAP Purpose Network",
+      "topic-path": "0",
+      "news-path": "/news/sap-purpose-network",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row473": {
+      "key": "news-tag/sap-s4hana-2",
+      "label": "SAP S/4HANA",
+      "topic-path": "0",
+      "news-path": "/news/sap-s4hana-2",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row474": {
+      "key": "news-tag/sap-s-4hana-success-series",
+      "label": "SAP S/4HANA Success series",
+      "topic-path": "0",
+      "news-path": "/news/sap-s-4hana-success-series",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row475": {
+      "key": "news-tag/sap-services-and-support",
+      "label": "SAP Services and Support",
+      "topic-path": "0",
+      "news-path": "/news/sap-services-and-support",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row476": {
+      "key": "news-tag/sap-signavio",
+      "label": "SAP Signavio",
+      "topic-path": "0",
+      "news-path": "/news/sap-signavio",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row477": {
+      "key": "news-tag/sap-signavio-business-process-transformation-forum",
+      "label": "SAP Signavio Business Process Transformation Forum",
+      "topic-path": "0",
+      "news-path": "/news/sap-signavio-business-process-transformation-forum",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row478": {
+      "key": "news-tag/sap-social-sabbatical",
+      "label": "SAP Social Sabbatical",
+      "topic-path": "0",
+      "news-path": "/news/sap-social-sabbatical",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row479": {
+      "key": "news-tag/sap-sponsorships",
+      "label": "SAP Sponsorships",
+      "topic-path": "0",
+      "news-path": "/news/sap-sponsorships",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row480": {
+      "key": "news-tag/sap-sports",
+      "label": "SAP Sports",
+      "topic-path": "0",
+      "news-path": "/news/sap-sports",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row481": {
+      "key": "news-tag/sap-store",
+      "label": "SAP Store",
+      "topic-path": "0",
+      "news-path": "/news/sap-store",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row482": {
+      "key": "news-tag/sap-successfactors",
+      "label": "SAP SuccessFactors",
+      "topic-path": "0",
+      "news-path": "/news/sap-successfactors",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row483": {
+      "key": "news-tag/sap-successfactors-hcm-suite",
+      "label": "SAP SuccessFactors HCM",
+      "topic-path": "0",
+      "news-path": "/news/sap-successfactors-hcm-suite",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row484": {
+      "key": "news-tag/sap-support-portal",
+      "label": "SAP Support Portal",
+      "topic-path": "0",
+      "news-path": "/news/sap-support-portal",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row485": {
+      "key": "news-tag/sap-support-portal-spotlight",
+      "label": "SAP Support Portal Spotlight",
+      "topic-path": "0",
+      "news-path": "/news/sap-support-portal-spotlight",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row486": {
+      "key": "news-tag/sap-support-portal-spotlight-news",
+      "label": "SAP Support Portal Spotlight News",
+      "topic-path": "0",
+      "news-path": "/news/sap-support-portal-spotlight-news",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row487": {
+      "key": "news-tag/sap-sustainability-solutions",
+      "label": "SAP Sustainability Solutions",
+      "topic-path": "0",
+      "news-path": "/news/sap-sustainability-solutions",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row488": {
+      "key": "news-tag/sap-training-and-adoption",
+      "label": "SAP Training and Adoption",
+      "topic-path": "0",
+      "news-path": "/news/sap-training-and-adoption",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row489": {
+      "key": "news-tag/sap-treasury-and-risk-management",
+      "label": "SAP Treasury and Risk Management",
+      "topic-path": "0",
+      "news-path": "/news/sap-treasury-and-risk-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row490": {
+      "key": "news-tag/sap-universal-id",
+      "label": "SAP Universal ID",
+      "topic-path": "0",
+      "news-path": "/news/sap-universal-id",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row491": {
+      "key": "news-tag/sap-university-alliances",
+      "label": "SAP University Alliances",
+      "topic-path": "0",
+      "news-path": "/news/sap-university-alliances",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row492": {
+      "key": "news-tag/sap-io",
+      "label": "SAP.Io",
+      "topic-path": "0",
+      "news-path": "/news/sap-io",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row493": {
+      "key": "news-tag/sap4good",
+      "label": "SAP4Good",
+      "topic-path": "0",
+      "news-path": "/news/sap4good",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row494": {
+      "key": "news-tag/schedule-a-manager",
+      "label": "Schedule a Manager",
+      "topic-path": "0",
+      "news-path": "/news/schedule-a-manager",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row495": {
+      "key": "news-tag/schedule-an-expert",
+      "label": "Schedule an Expert",
+      "topic-path": "0",
+      "news-path": "/news/schedule-an-expert",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row496": {
+      "key": "news-tag/security",
+      "label": "Security",
+      "topic-path": "0",
+      "news-path": "/news/security",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row497": {
+      "key": "news-tag/service-industries",
+      "label": "Service Industries",
+      "topic-path": "0",
+      "news-path": "/news/service-industries",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row498": {
+      "key": "news-tag/siemens",
+      "label": "Siemens",
+      "topic-path": "0",
+      "news-path": "/news/siemens",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row499": {
+      "key": "news-tag/social-enterprise",
+      "label": "Social Enterprise",
+      "topic-path": "0",
+      "news-path": "/news/social-enterprise",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row500": {
+      "key": "news-tag/social-entrepreneurship",
+      "label": "Social Entrepreneurship",
+      "topic-path": "0",
+      "news-path": "/news/social-entrepreneurship",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row501": {
+      "key": "news-tag/spotlight-black-businesses",
+      "label": "Spotlight Black Businesses",
+      "topic-path": "0",
+      "news-path": "/news/spotlight-black-businesses",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row502": {
+      "key": "news-tag/spotlight-news-archive",
+      "label": "Spotlight News Archive",
+      "topic-path": "0",
+      "news-path": "/news/spotlight-news-archive",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row503": {
+      "key": "news-tag/stanford-hai",
+      "label": "Stanford HAI",
+      "topic-path": "0",
+      "news-path": "/news/stanford-hai",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row504": {
+      "key": "news-tag/startups",
+      "label": "Startups",
+      "topic-path": "0",
+      "news-path": "/news/startups",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row505": {
+      "key": "news-tag/subscription-billing",
+      "label": "Subscription Billing",
+      "topic-path": "0",
+      "news-path": "/news/subscription-billing",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row506": {
+      "key": "news-tag/supplier-management",
+      "label": "Supplier Management",
+      "topic-path": "0",
+      "news-path": "/news/supplier-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row507": {
+      "key": "news-tag/talent-acquisition",
+      "label": "Talent Acquisition",
+      "topic-path": "0",
+      "news-path": "/news/talent-acquisition",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row508": {
+      "key": "news-tag/taulia",
+      "label": "Taulia",
+      "topic-path": "0",
+      "news-path": "/news/taulia",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row509": {
+      "key": "news-tag/the-forrester-wave",
+      "label": "The Forrester Wave",
+      "topic-path": "0",
+      "news-path": "/news/the-forrester-wave",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row510": {
+      "key": "news-tag/the-path-forward-series",
+      "label": "The Path Forward series",
+      "topic-path": "0",
+      "news-path": "/news/the-path-forward-series",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row511": {
+      "key": "news-tag/the-take",
+      "label": "The Take",
+      "topic-path": "0",
+      "news-path": "/news/the-take",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row512": {
+      "key": "news-tag/total-workforce-management",
+      "label": "Total Workforce Management",
+      "topic-path": "0",
+      "news-path": "/news/total-workforce-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row513": {
+      "key": "news-tag/tripit",
+      "label": "TripIt",
+      "topic-path": "0",
+      "news-path": "/news/tripit",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row514": {
+      "key": "news-tag/trustradius",
+      "label": "TrustRadius",
+      "topic-path": "0",
+      "news-path": "/news/trustradius",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row515": {
+      "key": "news-tag/ukraine",
+      "label": "Ukraine",
+      "topic-path": "0",
+      "news-path": "/news/ukraine",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row516": {
+      "key": "news-tag/un-sdgs",
+      "label": "UN SDGs",
+      "topic-path": "0",
+      "news-path": "/news/un-sdgs",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row517": {
+      "key": "news-tag/ux",
+      "label": "UX",
+      "topic-path": "0",
+      "news-path": "/news/ux",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row518": {
+      "key": "news-tag/warehouse-management",
+      "label": "Warehouse Management",
+      "topic-path": "0",
+      "news-path": "/news/warehouse-management",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row519": {
+      "key": "news-tag/wbcsd",
+      "label": "WBCSD",
+      "topic-path": "0",
+      "news-path": "/news/wbcsd",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row520": {
+      "key": "news-tag/we-are-family-foundation",
+      "label": "We Are Family Foundation",
+      "topic-path": "0",
+      "news-path": "/news/we-are-family-foundation",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row521": {
+      "key": "news-tag/well-being-at-work",
+      "label": "Well-Being at Work",
+      "topic-path": "0",
+      "news-path": "/news/well-being-at-work",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row522": {
+      "key": "news-tag/women-at-sap",
+      "label": "Women at SAP",
+      "topic-path": "0",
+      "news-path": "/news/women-at-sap",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row523": {
+      "key": "news-tag/women-in-leadership",
+      "label": "Women in Leadership",
+      "topic-path": "0",
+      "news-path": "/news/women-in-leadership",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row524": {
+      "key": "news-tag/women-in-tech",
+      "label": "Women in Tech",
+      "topic-path": "0",
+      "news-path": "/news/women-in-tech",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row525": {
+      "key": "news-tag/world-economic-forum",
+      "label": "World Economic Forum",
+      "topic-path": "0",
+      "news-path": "/news/world-economic-forum",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row526": {
+      "key": "news-tag/wta",
+      "label": "WTA",
+      "topic-path": "0",
+      "news-path": "/news/wta",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row527": {
+      "key": "news-tag/xaas",
+      "label": "XaaS",
+      "topic-path": "0",
+      "news-path": "/news/xaas",
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "row528": {
+      "key": "news-tag/xm",
+      "label": "XM",
+      "topic-path": "0",
+      "news-path": "/news/xm",
+      "jcr:primaryType": "nt:unstructured"
+    }
+  }
+}
